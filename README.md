@@ -12,7 +12,6 @@ This repository contains utilities for generating SSL certificate signing reques
 - `cert-request.bat` - Generate CSR and private key
 - `cert-convert.bat` - Convert PKCS7 (.p7b) certificates to PEM format
 - `cert-config.cnf` - Configuration file for certificate details
-- `_scripts/` - PowerShell scripts called by the batch files
 - `request/` - Output folder for CSR and private key
 - `converted/` - Output folder for converted certificates
 
