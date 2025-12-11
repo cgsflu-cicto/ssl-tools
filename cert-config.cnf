@@ -1,0 +1,14 @@
+[ req ]
+default_bits       = 2048
+prompt             = no
+default_md         = sha256
+distinguished_name = req_distinguished_name
+
+[ req_distinguished_name ]
+C  = PH
+ST = La Union
+L  = City of San Fernando
+O  = City Government of San Fernando La Union
+OU = CICTO
+CN = *.sanfernandocity.gov.ph
+emailAddress = cicto@sanfernandocity.gov.ph
